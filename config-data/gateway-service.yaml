@@ -21,7 +21,7 @@ spring:
           predicates:
             - Path=/profesor/**
         - id: proyector
-          uri: lb://proyector
+          uri: http://localhost:8082
           predicates:
             - Path=/proyector/**
         - id: prestamos
