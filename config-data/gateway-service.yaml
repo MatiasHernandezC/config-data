@@ -17,18 +17,18 @@ spring:
             allow-credentials: true
       routes:
         - id: profesor
-          uri: http://localhost:8082
+          uri: http://localhost:8092
           predicates:
             - Path=/profesor/**
         - id: proyector
-          uri: http://localhost:8083
+          uri: http://localhost:8093
           predicates:
             - Path=/proyector/**
         - id: prestamos
-          uri: http://localhost:8084
+          uri: http://localhost:8094
           predicates:
             - Path=/prestamos/**
         - id: devolucion
-          uri: http://localhost:8085
+          uri: http://localhost:8095
           predicates:
             - Path=/devolucion/**
